@@ -1,0 +1,29 @@
+﻿
+@model IEnumerable<RegionalShop.Models.Kategoria>
+@using RegionalShop.Infrastructure
+
+<nav class="KategorieVertical">
+    <h2>Kategorie :</h2>
+    <br />
+    <ul>
+        @foreach (var kategoria in Model)
+        {
+            <li>
+                <a href="@Url.Action("Lista","Produkty", new { nazwaKategorii = kategoria.NazwaKategorii.ToString() })"
+                   style="background-image: url(@Url.IkonyKategoriiSciezka(kategoria.NazwaPlikuIkony)); ">
+                    @kategoria.NazwaKategorii
+
+                </a>
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                <li style="text-align:left;">
+                    <a href="@Url.Action("DodajKategorie", "Manage", new { kategoriaId = kategoria.KategoriaId })" style="left: 0;">
+                        Edit @kategoria.NazwaKategorii
+                    </a>
+                </li>
+            }
+                
+                </li>
+            }
+    </ul>
+</nav>

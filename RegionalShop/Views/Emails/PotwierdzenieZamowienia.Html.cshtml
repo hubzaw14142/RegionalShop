@@ -1,0 +1,43 @@
+﻿@model RegionalShop.ViewModels.PotwierdzenieZamowieniaEmail
+Content-Type: text/html; charset=utf-8
+
+<html>
+<body style="font-size:20px">
+
+    @Html.EmbedImage("~/content/Images/banner.png")
+
+    <p>Dziękujemy!</p>
+    <p>Złożyłeś zamówienie w serwisie RegionalShop.</p>
+    <p>Zamówione pozycje :</p>
+
+    @{
+        IEnumerable<RegionalShop.Models.PozycjaZamowienia> pozycjeZamowienia = Model.PozycjeZamowienia;
+
+        for (int i = 0; i < pozycjeZamowienia.Count(); i++)
+        {
+            <p>
+                @pozycjeZamowienia.ElementAt(i).produkt.NazwaProduktu 
+                - @pozycjeZamowienia.ElementAt(i).produkt.CenaProduktu zł. - @pozycjeZamowienia.ElementAt(i).Ilosc szt.
+            </p>
+            <p>
+                @Html.EmbedImage(Path.Combine((string)Model.sciezkaObrazka, pozycjeZamowienia.ElementAt(i).produkt.NazwaPlikuObrazka), "", new { @width = 200, @class = "mcnImage", @style = "padding-bottom: 0px;max-width: 500px;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" })
+            </p>
+        }
+    }
+
+    <p>Prosimy o przelanie kwoty @Model.Wartosc zł, tytułem: "zamówienie nr @Model.NumerZamowienia" na nasze konto bankowe:</p>
+    <p>RegionalShop Sp. z o.o</p>
+    <p>ul. Jakas tam</p>
+    <p>PKO BP 10 0000 0000 0000 0000 0000 </p>
+
+    <p>Zaraz po otrzymaniu środków przejdziemy do realizowania zamowienia</p>
+    <p>Dziękujemy i zapraszamy ponownie!</p>
+    <p>RegionalShop.pl</p>
+
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,57 @@
+﻿
+@model RegionalShop.Models.Produkt
+@using RegionalShop.Infrastructure
+
+
+@{
+    ViewBag.Title = "Szczegoly";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="ListaKategoriZawartosc" style="margin-bottom:120px;">
+    @Html.Action("KategorieMenu")
+    <div id="KategorieListPrawaSekcja">
+        <div id="Breadcrumb">
+            <img src="~/Content/Images/dommaly.png" />
+            <a href="link">
+                @Html.MvcSiteMap().SiteMapPath()
+            </a>
+        </div>
+        <section id="SekcjaProdukt">
+            <div id="ProduktLewa">
+                <img src="@Url.ObrazkiSciezka(Model.NazwaPlikuObrazka)" />
+            </div>
+            <div id="ProduktPrawa">
+                <div id="ProduktNazwa">
+                    <h1>
+                        @Model.Kategoria.NazwaKategorii
+                    </h1>
+                    <h2>
+                        @Model.NazwaProduktu
+                    </h2>
+                </div>
+                <div id="ProduktCena">
+                    <div>
+                        @Model.CenaProduktu<span>PLN</span>
+
+                    </div>
+                    <a class="dodajDoKoszykaLink" href="@Url.Action("DodajDoKoszyka","Koszyk", new { id = Model.ProduktId })">
+                        
+                    </a>
+                </div>
+                <div id="ProduktOpis">
+                    @Model.OpisProduktu
+                </div>
+                <div id="ProduktInfo">
+                    @Model.OpisSkrocony
+                </div>
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <br><br>
+                    <a href="@Url.Action("DodajProdukt", "Manage", new { produktId = Model.ProduktId })" style="margin-top: 10px; font-weight: bold; font-size:20px;display: block;border: 5px solid green;text-align:center;"><br>Edytuj<br><br></a>
+                    }
+            </div>
+        </section>
+    </div>
+</div>
+

@@ -1,0 +1,104 @@
+﻿@model RegionalShop.ViewModels.EditProduktViewModel
+@{ ViewBag.Title = "DodajProdukt";
+    Layout = "~/Views/Shared/_ManageLayout.cshtml"; }
+<hr />
+<h2 class="manageHeader">Edycja produktu</h2>
+<div>
+    @if (Model.Potwierdzenie.HasValue && Model.Potwierdzenie.Value)
+    {
+        <div style="text-align: center; margin: 50px;">
+            Pomyślnie wprowadzono zmiany!
+        </div>}
+
+    @using (@Html.BeginForm("DodajProdukt", "Manage", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="error-summary-centered">
+            @Html.ValidationSummary()
+        </div>
+
+        @Html.HiddenFor(o => o.Produkt.ProduktId)
+        @Html.HiddenFor(o => o.Produkt.DataDodania)
+        @Html.HiddenFor(o => o.Produkt.NazwaPlikuObrazka)
+
+        <div style="text-align: center;">
+            <table id="albumedit-address-table">
+                <tr>
+                    <td>@Html.LabelFor(o => o.Produkt.NazwaProduktu, "Nazwa produktu:")</td>
+                    <td>@Html.TextBoxFor(o => o.Produkt.NazwaProduktu)</td>
+
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(o => o.Produkt.OpisProduktu, "Opis:")</td>
+                    <td>@Html.TextBoxFor(o => o.Produkt.OpisProduktu)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(o => o.Produkt.OpisSkrocony, "Opis skrócony:")</td>
+                    <td>@Html.TextBoxFor(o => o.Produkt.OpisSkrocony)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(o => o.Kategorie, "Kategoria:")</td>
+                    <td>@Html.DropDownListFor(m => m.Produkt.KategoriaId, new SelectList(Model.Kategorie, "KategoriaId", "NazwaKategorii", Model.Kategorie.First().KategoriaId))</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(o => o.Produkt.CenaProduktu, "Cena:")</td>
+                    <td>@Html.TextBoxFor(o => o.Produkt.CenaProduktu)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(o => o.Produkt.Bestseller, "Bestseller:")</td>
+                    <td>@Html.CheckBoxFor(o => o.Produkt.Bestseller)</td>
+                    <td></td>
+                </tr>
+
+                @if (ViewBag.EditMode == null || !ViewBag.EditMode)
+                {
+                    <tr>
+                        <td colspan="3">
+                            <a><br>Ścieżka do obrazka : </a>
+                            <div class="upload">
+
+                                <input type="file" name="file" />
+                            </div>
+                        </td>
+                    </tr>
+                }
+                <tr>
+
+                    <td style="text-align: left">
+                        @if (ViewBag.EditMode)
+                        {
+                            if (Model.Produkt.Ukryty)
+                            {
+                                <a href="@Url.Action("PokazProdukt", "Manage", new { produktId = Model.Produkt.ProduktId })" style="display: block; margin-top: 15px; font-weight: bold;">
+                                    Przywróć
+                                </a> }
+                            else
+                            {
+                                <a href="@Url.Action("UkryjProdukt", "Manage", new { produktId = Model.Produkt.ProduktId })" style="display: block; margin-top: 15px; font-weight: bold;">
+                                    Usuń
+                                </a>}
+                        }
+                    </td>
+
+
+                    <td style="text-align: right;">
+                        <input type="submit" value="Zapisz" class="submitLink" style="height:50px;" />
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>}
+</div>
+
+@section Scripts
+{
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}

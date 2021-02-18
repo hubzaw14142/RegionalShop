@@ -1,0 +1,387 @@
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\RegionalShop.dll.config
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\RegionalShop.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\RegionalShop.pdb
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\csc.exe
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\csc.exe.config
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\csc.rsp
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\csi.exe
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\csi.rsp
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\System.AppContext.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\vbc.exe
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\vbc.exe.config
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\vbc.rsp
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\EntityFramework.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Helpers.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Mvc.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Razor.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Webpages.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\EntityFramework.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Razor.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Webpages.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Helpers.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Mvc.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\pl\System.Web.Webpages.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\pl\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\pl\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csprojAssemblyReference.cache
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csproj.CoreCompileInputs.cache
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csproj.CopyComplete
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.pdb
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.InitialCreate.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csproj.GenerateResource.cache
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.UsuniecieDateTime.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.dodaniePolaDataDodania.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Glimpse.Ado.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Glimpse.Core.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Glimpse.EF6.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\MvcSiteMapProvider.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\WebActivatorEx.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Providers.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Providers.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Antlr3.Runtime.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Newtonsoft.Json.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Optimization.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\WebGrease.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Antlr3.Runtime.pdb
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Newtonsoft.Json.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\System.Web.Optimization.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Owin.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.DodanieAspIdentity.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.EdycjaKlasyZamowienie.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.EdycjaKlasyZamowienieDodanieRelacji.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Elmah.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Elmah.Mvc.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.Elmah.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\NLog.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\NLog.Elmah.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\NLog.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\NLog.Elmah.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Postal.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\RazorEngine.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Postal.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\RazorEngine.pdb
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\RazorEngine.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Hangfire.Core.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Hangfire.SqlServer.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Hangfire.Core.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Hangfire.SqlServer.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\es\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\zh\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Ninject.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Ninject.Web.Common.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Ninject.Web.Mvc.dll
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Ninject.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Ninject.Web.Common.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\bin\Ninject.Web.Mvc.xml
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.opis_produktu.resources
+C:\Users\Zawisza\Source\Repos\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.UkrytaKategoria.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\RegionalShop.dll.config
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\RegionalShop.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\RegionalShop.pdb
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\csc.exe
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\csc.exe.config
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\csc.rsp
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\csi.exe
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\csi.rsp
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\System.AppContext.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\vbc.exe
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\vbc.exe.config
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\vbc.rsp
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Antlr3.Runtime.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Elmah.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Elmah.Mvc.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\EntityFramework.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Glimpse.Ado.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Glimpse.Core.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Glimpse.EF6.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Hangfire.Core.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Hangfire.SqlServer.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\MvcSiteMapProvider.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Newtonsoft.Json.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Ninject.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Ninject.Web.Common.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Ninject.Web.Mvc.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\NLog.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\NLog.Elmah.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Owin.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Postal.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\RazorEngine.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Helpers.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Mvc.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Optimization.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Providers.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Razor.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Webpages.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\WebActivatorEx.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\WebGrease.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Antlr3.Runtime.pdb
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\EntityFramework.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Hangfire.Core.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Hangfire.SqlServer.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Newtonsoft.Json.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Ninject.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Ninject.Web.Common.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Ninject.Web.Mvc.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\NLog.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\NLog.Elmah.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Postal.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\RazorEngine.pdb
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\RazorEngine.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Optimization.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Providers.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Razor.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Webpages.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Helpers.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\System.Web.Mvc.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\es\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\zh\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\pl\System.Web.Webpages.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\pl\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\pl\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.csprojAssemblyReference.cache
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.InitialCreate.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.UsuniecieDateTime.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.dodaniePolaDataDodania.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.DodanieAspIdentity.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.EdycjaKlasyZamowienie.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.EdycjaKlasyZamowienieDodanieRelacji.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.Elmah.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.opis_produktu.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.Migrations.UkrytaKategoria.resources
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.csproj.GenerateResource.cache
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.csproj.CoreCompileInputs.cache
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.csproj.CopyComplete
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.dll
+C:\Users\Zawisza\Desktop\Nowy folder (2)\RegionalShop\obj\Debug\RegionalShop.pdb
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\RegionalShop.dll.config
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\RegionalShop.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\RegionalShop.pdb
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\csc.exe
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\csc.exe.config
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\csc.rsp
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\csi.exe
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\csi.rsp
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\System.AppContext.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\vbc.exe
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\vbc.exe.config
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\vbc.rsp
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Antlr3.Runtime.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Elmah.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Elmah.Mvc.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\EntityFramework.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Glimpse.Ado.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Glimpse.Core.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Glimpse.EF6.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Hangfire.Core.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Hangfire.SqlServer.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\MvcSiteMapProvider.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Newtonsoft.Json.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.Web.Common.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.Web.Mvc.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\NLog.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\NLog.Elmah.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Owin.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Postal.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\RazorEngine.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Helpers.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Mvc.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Optimization.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Providers.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Razor.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Webpages.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\WebActivatorEx.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\WebGrease.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Antlr3.Runtime.pdb
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\EntityFramework.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Hangfire.Core.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Hangfire.SqlServer.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Newtonsoft.Json.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.Web.Common.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.Web.Mvc.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\NLog.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\NLog.Elmah.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Postal.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\RazorEngine.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Optimization.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Providers.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Razor.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Webpages.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Helpers.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\System.Web.Mvc.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\es\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\zh\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pl\System.Web.Webpages.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pl\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pl\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csprojAssemblyReference.cache
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.InitialCreate.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.UsuniecieDateTime.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.dodaniePolaDataDodania.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.DodanieAspIdentity.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.EdycjaKlasyZamowienie.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.EdycjaKlasyZamowienieDodanieRelacji.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.Elmah.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.opis_produktu.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.UkrytaKategoria.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csproj.GenerateResource.cache
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csproj.CoreCompileInputs.cache
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.csproj.CopyComplete
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.pdb
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.zmiany_kategoria.resources
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\MvcSiteMapProvider.WebActivator.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Microsoft.Web.Administration.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\MvcSiteMapProvider.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\MvcSiteMapProvider.WebActivator.pdb
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\MvcSiteMapProvider.WebActivator.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\ca\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\de\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\fa\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\fr\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\nl\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pt\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pt-BR\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\pt-PT\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\zh-TW\Hangfire.Core.resources.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\NLog.config
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Zawisza\Desktop\praca\RegionalShop\RegionalShop\obj\Debug\RegionalShop.Migrations.Aktualizacje.resources
