@@ -599,6 +599,9 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Emails\PotwierdzenieEmail.cshtml" />
+    <Content Include="Views\Emails\PotwierdzenieEmail.Html.cshtml" />
+    <Content Include="Views\Emails\PotwierdzenieEmail.Text.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
