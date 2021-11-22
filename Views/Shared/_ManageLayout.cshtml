@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Images/fav.png" rel="shortcut icon" type="image/x-icon" sizes="32x32"/>
+
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/themes/base/jquery-ui.css")" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div  style="overflow: hidden; margin-bottom: 30px; height:42px;width:100%">
+
+            
+            <a class="manageLink"style="padding-left:40px" href="@Url.Action("Index", "Home")">
+                START
+            </a>
+            <a class="manageLink" href="@Url.Action("Index", "Manage")">
+                TWOJE DANE
+            </a>
+            <a class="manageLink" href="@Url.Action("ListaZamowien", "Manage")" >
+                ZAMÓWIENIA
+            </a>
+            @if (@User.IsInRole("Admin"))
+            {
+        <ol>
+            <li>
+                <a class="manageLink" href="#">ZARZĄDZAJ</a>
+                <ol style="position: absolute;">
+                    <li>
+                        <a class="manageLink" style="padding-left:25px" href="@Url.Action("DodajProdukt", "Manage")">
+                            +Produkt
+                        </a>
+                    </li>
+                    <li>
+                        <a class="manageLink" style="padding-left:25px" href="@Url.Action("DodajKategorie", "Manage")">
+                            +Kategoria
+                        </a>
+                    </li>
+                    <li>
+                        <a class="manageLink" style="padding-left:45px" href="@Url.Content("~/elmah")">
+                            Logi
+                        </a>
+                    </li>
+                    <li>
+                        <a class="manageLink" style="padding-left:45px" href="@Url.Content("~/hangfire")">
+                            Jobs
+                        </a>
+                    </li>
+                </ol>
+                </li>
+        </ol>}
+
+            <a id="koszykHeaderLink" href="@Url.Action("Index", "Koszyk")">
+                KOSZYK (<span id="koszyk-naglowek-ilosc-elementow">@Html.Action("PobierzIloscElementowKoszyka", "Koszyk")</span>)
+                <span id="cart-header-logo"></span>
+            </a>
+            @Html.Partial("_LoginPartial")
+        </div>
+        <div id="Breadcrumb">
+            <img src="@Url.Content("~/Content/Images/dommaly.png")" />
+            @Html.MvcSiteMap().SiteMapPath()
+        </div>
+    </header>
+
+    <div id="main">
+        @RenderBody()
+    </div>
+
+    <footer id="footer">
+        <nav>
+            <ul>
+                <li><a href="@Url.Action("StronyStatyczne","Home",new {nazwa="Onas"})" style="">O nas</a></li>
+                <li><a href="@Url.Action("StronyStatyczne","Home",new {nazwa="Spolecznosc"})" style="">Społeczność</a></li>
+                <li><a href="@Url.Action("StronyStatyczne","Home",new {nazwa="Opinie"})" style="">Opinie</a></li>
+                <li><a href="@Url.Action("StronyStatyczne","Home",new {nazwa="Onas"})" Pomoc="">Pomoc</a></li>
+                <li><a href="@Url.Action("StronyStatyczne","Home",new {nazwa="Regulamin"})" style="">Regulamin</a></li>
+                <li><a href="@Url.Action("StronyStatyczne","Home",new {nazwa="Kontakt"})" style="">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div id="footerLogo">
+        </div>
+        <div id="footerCopyright">
+            Copyright &copy; RegionalShop
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+<script src="~/Scripts/header.js"></script>

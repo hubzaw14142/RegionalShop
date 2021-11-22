@@ -1,0 +1,29 @@
+﻿@model RegionalShop.ViewModels.PotwierdzenieZamowieniaEmail
+
+    pozycjeZamowienia = Model.PozycjeZamowienia;
+    Content-Type: text/plain; charset=utf-8
+
+    Dziękujemy!
+
+    Złożyłeś zamówienie w serwisie RegionalShop.
+    Zamówione pozycje :
+
+@{ IEnumerable<RegionalShop.Models.PozycjaZamowienia> pozycjeZamowienia = Model.PozycjeZamowienia;
+
+
+    foreach(var i in pozycjeZamowienia)
+    {
+@i.produkt.NazwaProduktu;
+} 
+    }
+
+    Prosimy o przelanie kwoty @Model.Wartosc zł, tytułem: zamówienie nr @Model.NumerZamowienia na nasze konto bankowe:
+
+    RegionalShop Sp. z o.o
+    ul. Jakas tam
+    PKO SA 10 0000 0000 0000 0000 0000
+
+    Zaraz po otrzymaniu środków przejdziemy do realizowania zamowienia
+
+    Dziękujemy i zapraszamy ponownie!
+    RegionalShop.pl

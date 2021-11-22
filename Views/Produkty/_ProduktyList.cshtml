@@ -1,0 +1,28 @@
+﻿
+@model IEnumerable<RegionalShop.Models.Produkt>
+@using RegionalShop.Infrastructure
+<div id="SekcjaListaKategori">
+    <ul class="ProduktyTrzyKolumny MalaListaKategorii">
+
+        @foreach (var produkt in Model)
+        {
+            <li>
+                <article>
+                    <a class="dodajDoKoszykaLink" href="@Url.Action("DodajDoKoszyka","Koszyk", new { id = produkt.ProduktId })">
+                        <img src="@Url.Content("~/Content/Images/koszyk.png")" />
+                    </a>
+                    @if (produkt.Bestseller)
+                    {
+                        <div class="bestsellerFlag"></div>
+                    }
+                    <a class="produktSzczegolyLink" href="@Url.Action("Szczegoly","Produkty", new { id = produkt.ProduktId })">
+                        <img class="produkt" src="@Url.ObrazkiSciezka(produkt.NazwaPlikuObrazka)" />
+                        <h1>
+                            @produkt.NazwaProduktu - @produkt.OpisSkrocony
+                        </h1>
+                    </a>
+                </article>
+            </li>
+        }
+    </ul>
+</div>

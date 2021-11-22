@@ -1,0 +1,79 @@
+﻿
+@using RegionalShop.Infrastructure
+@model RegionalShop.ViewModels.HomeViewModel
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+@{ ViewBag.Title = "RegionalShop"; }
+<nav class="kategorieHorizontal">
+    <br /><br /> 
+    <ul>
+        @foreach (var kategoria in Model.Kategorie)
+        {
+<li>
+    <a href="@Url.Action("Lista","Produkty", new { nazwaKategorii = kategoria.NazwaKategorii.ToLower() } )"
+       style="background-image: url(@Url.IkonyKategoriiSciezka(kategoria.NazwaPlikuIkony)); ">
+        @kategoria.NazwaKategorii
+
+    </a>
+
+</li>
+}
+    </ul>
+    <a href="@Url.Content("~/")">
+
+        
+        <img src="~/Content/Images/banner2.png" style="margin-top:15px;"/>
+        
+
+
+    </a>
+
+</nav>
+
+<section>
+    <ul class="ProduktyTrzyKolumny duzaListaProdukty" style="margin-left:15px;">
+        @foreach (var nowosc in Model.Nowosci)
+        {
+<li>
+    <article>
+        <a class="dodajDoKoszykaLink" href="@Url.Action("DodajDoKoszyka","Koszyk", new { id = nowosc.ProduktId})">
+            <img src="../Content/Images/koszyk.png" />
+        </a>
+        <a class="produktSzczegolyLink" href="@Url.Action("Szczegoly", "Produkty", new { id = nowosc.ProduktId})">
+            <div class="newFlag"></div>
+            <img class="produkt" src="@Url.ObrazkiSciezka(nowosc.NazwaPlikuObrazka)" />
+            <h1>
+                @nowosc.NazwaProduktu - @nowosc.OpisSkrocony
+            </h1>
+        </a>
+    </article>
+</li>
+}
+    </ul>
+</section>
+
+<section>
+    <ul class="ProduktyTrzyKolumny duzaListaProdukty" style="margin-left:15px;margin-bottom:110px;">
+        @foreach (var bestseller in Model.Bestsellery)
+        {
+<li>
+    <article>
+        <a class="dodajDoKoszykaLink" href="@Url.Action("DodajDoKoszyka","Koszyk", new { id = bestseller.ProduktId})">
+            <img src="../Content/Images/koszyk.png" />
+        </a>
+        <a class="produktSzczegolyLink" href="@Url.Action("Szczegoly", "Produkty", new { id = bestseller.ProduktId})">
+            <div class="bestsellerFlag"></div>
+            <img class="produkt" src="@Url.ObrazkiSciezka(bestseller.NazwaPlikuObrazka)" />
+            <h1>
+                @bestseller.NazwaProduktu - @bestseller.OpisSkrocony
+            </h1>
+        </a>
+    </article>
+</li>
+}
+    </ul>
+</section>
+
+
+
+

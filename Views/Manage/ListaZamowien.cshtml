@@ -1,0 +1,175 @@
+﻿@model IEnumerable<RegionalShop.Models.Zamowienie>
+@{
+    ViewBag.Title = "ListaZamowien";
+    Layout = "~/Views/Shared/_ManageLayout.cshtml";
+}
+
+<div>
+    <hr />
+    <h2 class="manageHeader">Zamówienia</h2>
+
+    <div style="color: white;">
+
+        <form style="margin-left:30px;float:right;margin-top:-30px;margin-bottom:20px;" id="search-form" method="get" data-ajax="true">
+
+            <input id="search-filter" type="search" name="searching"
+                   data-autocomplete-source="@Url.Action("ZamowieniaPodpowiedzi")" /> <input type="submit" value=" " />
+
+        </form>
+        @if (Model.Any())
+        {
+
+
+            <table id="zamowienia-table">
+
+                @foreach (var zamowienie in Model)
+                {
+                    <tr @if (zamowienie.StanZamowienia == RegionalShop.Models.StanZamowienia.Nowe) { <text> class="noweZamowienie" </text> }>
+                        <td>
+                            <strong>Nr zamówienia: </strong>@zamowienie.ZamowienieId
+                        </td>
+                        <td>
+                            <strong>Data: </strong>
+                            @zamowienie.DataDodania.ToString("dd-MM-yyyy")
+                        </td>
+                        <td>
+                            <strong>Stan: </strong><br />
+
+                            @if (ViewBag.UserIsAdmin)
+                            {
+                                using (Html.BeginForm("ZmianaStanuZamowienia", "Manage"))
+                                {
+                                    @Html.HiddenFor(o => zamowienie.ZamowienieId)
+                                    @Html.EnumDropDownListFor(o => zamowienie.StanZamowienia, new { @class = "StanZamowieniaZmien" }) }
+                            }
+                            else
+                            {
+                                @Html.DisplayFor(o => zamowienie.StanZamowienia)}
+                            @if (zamowienie.StanZamowienia.ToString() == "Zrealizowane")
+                            {
+                                <style>
+                                    #zamowienia-table tr:nth-child(3n+1) {
+                                        background-color: #ff6a00;
+                                        -moz-transition-duration: 3s;
+                                        -o-transition-duration: 3s;
+                                        -webkit-transition-duration: 3s;
+                                        transition-duration: 3s;
+                                    }
+                                </style>
+                            }
+                        </td>
+                        <td>
+                            <strong>Dane wysyłkowe:</strong><br />
+                            @zamowienie.Imie @zamowienie.Nazwisko<br />
+                            @zamowienie.Adres<br />
+                            @zamowienie.KodPocztowy
+                            @zamowienie.Miejscowosc<br />
+                        </td>
+                        <td>
+                            <strong>Uwagi: </strong><br />
+                            @zamowienie.Komentarz
+                        </td>
+                        <td>
+                            <strong>Całkowity koszt:</strong> @zamowienie.WartoscZamowienia zł
+                            @if (@User.IsInRole("Admin"))
+                            {
+                                <br /><br />
+
+                                @Html.ActionLink("USUŃ", "Delete", new { id = zamowienie.ZamowienieId }, new { style="color:white;font-size:18px;font-weight:500;"})
+
+                            }
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="6">
+                            <section>
+                                <ul class="TrzyKolumnyList duzaListaProdukty-bottom">
+
+                                    @foreach (var pozycjaZamowienia in zamowienie.PozycjeZamowienia)
+                                    {
+                                        <li>
+                                            <article>
+                                                <a class="produktSzczegolyLink" href="@Url.Action("Szczegoly", "Produkty", new { id = pozycjaZamowienia.ProduktId })">
+                                                    <img class="produkt" src="@Url.Content("~/Content/Produkty/" + pozycjaZamowienia.produkt.NazwaPlikuObrazka)" />
+                                                    <h1>
+                                                        @pozycjaZamowienia.produkt.NazwaProduktu - @pozycjaZamowienia.produkt.OpisSkrocony<br />
+                                                        <strong>sztuk: @pozycjaZamowienia.Ilosc, łącznie: @(pozycjaZamowienia.Ilosc * @pozycjaZamowienia.CenaZakupu)  zł</strong>
+                                                    </h1>
+                                                </a>
+                                            </article>
+                                        </li>
+                                    }
+                                </ul>
+                            </section>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6"></td>
+                    </tr>
+                    <!-- nastepne zamowienie -->}
+            </table>
+
+        }
+        else
+        {
+            <div style="text-align: center; margin-top: 50px; margin-bottom: 50px;">
+                Brak zamówień.
+            </div>}
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAndJqueryUI")
+    <script>
+                        $(".StanZamowieniaZmien").on('change', function (e) {
+                            //e.preventDefault();
+
+                            var f = $(this.form);
+                            var tr = f.closest("tr");
+                            var action = f.attr("action");
+                            var serializedForm = f.serialize();
+
+                            $.post(action, serializedForm).done(function (data) {
+                                if (data == '@RegionalShop.Models.StanZamowienia.Nowe.ToString()') {
+                                    tr.addClass("noweZamowienie")
+                                }
+                                else {
+                                    tr.removeClass("noweZamowienie");
+                                }
+                              });
+                        });
+
+
+    </script>
+    <script>
+        $(function () {
+
+            var setupAutoComplete = function () {
+                var $input = $(this);
+
+                var options =
+                {
+                    source: $input.attr("data-autocomplete-source"),
+                    select: function (event, ui) {
+                        $input = $(this);
+                        $input.val(ui.item.label);
+                        var $form = $input.parents("form:first");
+                        $form.submit();
+                    }
+                };
+
+                $input.autocomplete(options);
+            };
+
+
+            $("#search-filter").each(setupAutoComplete);
+
+        });
+
+    </script>
+
+
+}
+
